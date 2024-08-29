@@ -1,0 +1,12 @@
+.o-media {
+  @include clearfix;
+
+  &__img {
+    float: left;
+    margin-right: 1rem;
+  }
+
+  &__body {
+    overflow: hidden;
+  }
+}

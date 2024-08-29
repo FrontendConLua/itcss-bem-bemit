@@ -1,0 +1,24 @@
+// Estilos base para elementos HTML (h1, p, etc.)
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

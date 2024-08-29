@@ -1,0 +1,24 @@
+// main.scss
+
+// Importar settings primero
+@import "./settings/_variables";
+
+// Luego herramientas
+@import "tools/_mixins";
+
+// Estilos genéricos globales
+@import "generic/_reset";
+
+// Estilos base para elementos
+@import "elements/_typography";
+
+// Objetos reutilizables
+@import "objects/_grid";
+@import "objects/_media";
+
+// Componentes específicos
+@import "components/_header";
+@import "components/_button";
+
+// Clases utilitarias
+@import "trumps/_utilities";

@@ -1,0 +1,12 @@
+// Componentes reutilizables sin contexto específico
+.o-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.o-col {
+  padding: 1rem;
+}
+
+@include cols($breakpoints, $ncols, "o-col");
